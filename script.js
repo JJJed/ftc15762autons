@@ -41,8 +41,22 @@ const autonData = [
         videos: ["videos/auton6/left.webm", "videos/auton6/middle.webm", "videos/auton6/right.webm"],
         pseudocode: "DROP PURPLE PIXEL ON SPIKE MARK\nDROP YELLOW PIXEL ON BACKDROP\nPARK ON LEFT",
         points: 50
+    },
+    {
+        title: "Auton 7 (Blue Backdrop)",
+        tags: ["Blue", "Backdrop"],
+        videos: ["videos/auton7/left.webm", "videos/auton7/middle.webm", "videos/auton7/right.webm"],
+        pseudocode: "DROP PURPLE PIXEL ON SPIKE MARK\nDROP YELLOW PIXEL ON BACKDROP\nPARK IN CENTER",
+        points: 50
+    },
+    {
+        title: "Auton 8 (Red Backdrop)",
+        tags: ["Red", "Backdrop"],
+        videos: ["videos/auton8/left.webm", "videos/auton8/middle.webm", "videos/auton8/right.webm"],
+        pseudocode: "DROP PURPLE PIXEL ON SPIKE MARK\nDROP YELLOW PIXEL ON BACKDROP\nPARK IN CENTER",
+        points: 50
     }
-    // ... Add more auton data with tags "Red" and "Blue" (and their subcategories)
+    
 ];
 
 // Function to create the grid item for each auton
