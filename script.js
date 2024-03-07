@@ -130,11 +130,11 @@ function updateSubFilters(selectedTag) {
 
   if (selectedTag === 'all') {
     // Show "All" button only
-    const allButton = document.createElement('button');
+    /*const allButton = document.createElement('button');
     allButton.innerText = 'All';
     allButton.dataset.tag = 'all';
     allButton.dataset.subtag = 'all';
-    subFilterContainer.appendChild(allButton);
+    subFilterContainer.appendChild(allButton);*/
   } else {
     // Show "Backdrop" and "Wing" buttons for the selected tag
     const subtags = ['Backdrop', 'Wing'];
