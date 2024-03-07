@@ -3,23 +3,45 @@ const autonData = [
     {
         title: "Auton 1 (Blue Backdrop)",
         tags: ["Blue", "Backdrop"],
-        videos: ["videos/auton1/left.webm", "videos/auton1/middle.webm", "videos/auton1/right.webm"]
+        videos: ["videos/auton1/left.webm", "videos/auton1/middle.webm", "videos/auton1/right.webm"],
+        pseudocode: "DROP PURPLE PIXEL ON SPIKE MARK\nDROP YELLOW PIXEL ON BACKDROP\nPARK ON LEFT",
+        points: 50
     },
     {
         title: "Auton 2 (Blue Backdrop)",
         tags: ["Blue", "Backdrop"],
-        videos: ["videos/auton2/left.webm", "videos/auton2/middle.webm", "videos/auton2/right.webm"]
+        videos: ["videos/auton2/left.webm", "videos/auton2/middle.webm", "videos/auton2/right.webm"],
+        pseudocode: "\nDROP YELLOW PIXEL ON BACKDROP\nDROP PURPLE PIXEL ON SPIKE MARK\nPICK UP 2 WHITE PIXELS\nPARK ON LEFT",
+        points: 50
     },
     {
         title: "Auton 3 (Red Backdrop)",
         tags: ["Red", "Backdrop"],
-        videos: ["videos/auton3/left.webm", "videos/auton3/middle.webm", "videos/auton3/right.webm"]
+        videos: ["videos/auton3/left.webm", "videos/auton3/middle.webm", "videos/auton3/right.webm"],
+        pseudocode: "DROP PURPLE PIXEL ON SPIKE MARK\nDROP YELLOW PIXEL ON BACKDROP\nPARK ON RIGHT",
+        points: 50
     },
     {
         title: "Auton 4 (Red Backdrop)",
         tags: ["Red", "Backdrop"],
-        videos: ["videos/auton4/left.webm", "videos/auton4/middle.webm", "videos/auton4/right.webm"]
+        videos: ["videos/auton4/left.webm", "videos/auton4/middle.webm", "videos/auton4/right.webm"],
+        pseudocode: "\nDROP YELLOW PIXEL ON BACKDROP\nDROP PURPLE PIXEL ON SPIKE MARK\nPICK UP 2 WHITE PIXELS\nPARK ON RIGHT",
+        points: 50
     },
+    {
+        title: "Auton 5 (Blue Backdrop)",
+        tags: ["Blue", "Backdrop"],
+        videos: ["videos/auton5/left.webm", "videos/auton5/middle.webm", "videos/auton5/right.webm"],
+        pseudocode: "DROP PURPLE PIXEL ON SPIKE MARK\nDROP YELLOW PIXEL ON BACKDROP\nPARK ON RIGHT",
+        points: 50
+    },
+    {
+        title: "Auton 6 (Red Backdrop)",
+        tags: ["Red", "Backdrop"],
+        videos: ["videos/auton6/left.webm", "videos/auton6/middle.webm", "videos/auton6/right.webm"],
+        pseudocode: "DROP PURPLE PIXEL ON SPIKE MARK\nDROP YELLOW PIXEL ON BACKDROP\nPARK ON LEFT",
+        points: 50
+    }
     // ... Add more auton data with tags "Red" and "Blue" (and their subcategories)
 ];
 
@@ -29,6 +51,7 @@ function createAutonItem(auton) {
     item.classList.add('auton-item');
 
     const title = document.createElement('h3');
+    const title_text = auton.title + " - " + auton.points + " points"
     title.innerText = auton.title;
     item.appendChild(title);
 
@@ -54,6 +77,11 @@ function createAutonItem(auton) {
     table.appendChild(videoRow);
 
     item.appendChild(table); // Add table instead of video container
+
+    const pseudocode = document.createElement('p');
+    pseudocode.innerText = auton.pseudocode;
+    item.appendChild(pseudocode);
+
 
     return item;
 }
