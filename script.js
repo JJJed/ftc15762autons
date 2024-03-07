@@ -55,6 +55,48 @@ const autonData = [
         videos: ["videos/auton8/left.webm", "videos/auton8/middle.webm", "videos/auton8/right.webm"],
         pseudocode: "DROP PURPLE PIXEL ON SPIKE MARK\nDROP YELLOW PIXEL ON BACKDROP\nPARK IN CENTER",
         points: 50
+    },
+    {
+        title: "Auton 9 (Blue Wing)",
+        tags: ["Blue", "Wing"],
+        videos: ["videos/auton9/left.webm", "videos/auton9/middle.webm", "videos/auton9/right.webm"],
+        pseudocode: "DROP PURPLE PIXEL ON SPIKE MARK\nDROP YELLOW PIXEL ON BACKDROP\nPARK IN CENTER",
+        points: 50
+    },
+    {
+        title: "Auton 10 (Blue Wing)",
+        tags: ["Blue", "Wing"],
+        videos: ["videos/auton10/left.webm", "videos/auton10/middle.webm", "videos/auton10/right.webm"],
+        pseudocode: "DROP PURPLE PIXEL ON SPIKE MARK\nDROP YELLOW PIXEL ON BACKDROP\nPARK ON LEFT",
+        points: 50
+    },
+    {
+        title: "Auton 11 (Blue Wing)",
+        tags: ["Blue", "Wing"],
+        videos: ["videos/auton11/left.webm", "videos/auton11/middle.webm", "videos/auton11/right.webm"],
+        pseudocode: "DROP PURPLE PIXEL ON SPIKE MARK\nDROP YELLOW PIXEL ON BACKDROP\nPARK ON RIGHT",
+        points: 50
+    },
+    {
+        title: "Auton 12 (Red Wing)",
+        tags: ["Red", "Wing"],
+        videos: ["videos/auton9/left.webm", "videos/auton9/middle.webm", "videos/auton9/right.webm"],
+        pseudocode: "DROP PURPLE PIXEL ON SPIKE MARK\nDROP YELLOW PIXEL ON BACKDROP\nPARK IN CENTER",
+        points: 50
+    },
+    {
+        title: "Auton 13 (Red Wing)",
+        tags: ["Red", "Wing"],
+        videos: ["videos/auton10/left.webm", "videos/auton10/middle.webm", "videos/auton10/right.webm"],
+        pseudocode: "DROP PURPLE PIXEL ON SPIKE MARK\nDROP YELLOW PIXEL ON BACKDROP\nPARK ON RIGHT",
+        points: 50
+    },
+    {
+        title: "Auton 14 (Red Wing)",
+        tags: ["Red", "Wing"],
+        videos: ["videos/auton11/left.webm", "videos/auton11/middle.webm", "videos/auton11/right.webm"],
+        pseudocode: "DROP PURPLE PIXEL ON SPIKE MARK\nDROP YELLOW PIXEL ON BACKDROP\nPARK ON LEFT",
+        points: 50
     }
     
 ];
