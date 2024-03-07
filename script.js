@@ -52,7 +52,7 @@ function createAutonItem(auton) {
 
     const title = document.createElement('h3');
     const title_text = auton.title + " - " + auton.points + " points";
-    title.innerText = auton.title;
+    title.innerText = title_text;
     item.appendChild(title);
 
     // Create Table Structure
