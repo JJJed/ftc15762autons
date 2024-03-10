@@ -105,6 +105,7 @@ const autonData = [
 function createAutonItem(auton) {
     const item = document.createElement('div');
     item.classList.add('auton-item');
+    item.classList.add(auton.tags[0])
 
     const title = document.createElement('h3');
     const title_text = auton.title + " - " + auton.points + " points";
