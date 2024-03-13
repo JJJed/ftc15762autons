@@ -5,98 +5,112 @@ const autonData = [
         tags: ["Blue", "Backdrop"],
         videos: ["videos/auton1/left.webm", "videos/auton1/middle.webm", "videos/auton1/right.webm"],
         pseudocode: "DROP PURPLE PIXEL ON SPIKE MARK\nDROP YELLOW PIXEL ON BACKDROP\nPARK ON LEFT",
-        points: 50
+        points: 50,
+        tested: "TESTED"
     },
     {
         title: "Auton 2 (Blue Backdrop)",
         tags: ["Blue", "Backdrop"],
         videos: ["videos/auton2/left.webm", "videos/auton2/middle.webm", "videos/auton2/right.webm"],
         pseudocode: "\nDROP YELLOW PIXEL ON BACKDROP\nDROP PURPLE PIXEL ON SPIKE MARK\nPICK UP 2 WHITE PIXELS\nPARK ON LEFT",
-        points: 50
+        points: 50,
+        tested: "NOT TESTED"
     },
     {
         title: "Auton 3 (Red Backdrop)",
         tags: ["Red", "Backdrop"],
         videos: ["videos/auton3/left.webm", "videos/auton3/middle.webm", "videos/auton3/right.webm"],
         pseudocode: "DROP PURPLE PIXEL ON SPIKE MARK\nDROP YELLOW PIXEL ON BACKDROP\nPARK ON RIGHT",
-        points: 50
+        points: 50,
+        tested: "NOT TESTED"
     },
     {
         title: "Auton 4 (Red Backdrop)",
         tags: ["Red", "Backdrop"],
         videos: ["videos/auton4/left.webm", "videos/auton4/middle.webm", "videos/auton4/right.webm"],
         pseudocode: "\nDROP YELLOW PIXEL ON BACKDROP\nDROP PURPLE PIXEL ON SPIKE MARK\nPICK UP 2 WHITE PIXELS\nPARK ON RIGHT",
-        points: 50
+        points: 50,
+        tested: "NOT TESTED"
     },
     {
         title: "Auton 5 (Blue Backdrop)",
         tags: ["Blue", "Backdrop"],
         videos: ["videos/auton5/left.webm", "videos/auton5/middle.webm", "videos/auton5/right.webm"],
         pseudocode: "DROP PURPLE PIXEL ON SPIKE MARK\nDROP YELLOW PIXEL ON BACKDROP\nPARK ON RIGHT",
-        points: 50
+        points: 50,
+        tested: "NOT TESTED"
     },
     {
         title: "Auton 6 (Red Backdrop)",
         tags: ["Red", "Backdrop"],
         videos: ["videos/auton6/left.webm", "videos/auton6/middle.webm", "videos/auton6/right.webm"],
         pseudocode: "DROP PURPLE PIXEL ON SPIKE MARK\nDROP YELLOW PIXEL ON BACKDROP\nPARK ON LEFT",
-        points: 50
+        points: 50,
+        tested: "NOT TESTED"
     },
     {
         title: "Auton 7 (Blue Backdrop)",
         tags: ["Blue", "Backdrop"],
         videos: ["videos/auton7/left.webm", "videos/auton7/middle.webm", "videos/auton7/right.webm"],
         pseudocode: "DROP PURPLE PIXEL ON SPIKE MARK\nDROP YELLOW PIXEL ON BACKDROP\nPARK IN CENTER",
-        points: 50
+        points: 50,
+        tested: "NOT TESTED"
     },
     {
         title: "Auton 8 (Red Backdrop)",
         tags: ["Red", "Backdrop"],
         videos: ["videos/auton8/left.webm", "videos/auton8/middle.webm", "videos/auton8/right.webm"],
         pseudocode: "DROP PURPLE PIXEL ON SPIKE MARK\nDROP YELLOW PIXEL ON BACKDROP\nPARK IN CENTER",
-        points: 50
+        points: 50,
+        tested: "NOT TESTED"
     },
     {
         title: "Auton 9 (Blue Wing)",
         tags: ["Blue", "Wing"],
         videos: ["videos/auton9/left.webm", "videos/auton9/middle.webm", "videos/auton9/right.webm"],
         pseudocode: "DROP PURPLE PIXEL ON SPIKE MARK\nDROP YELLOW PIXEL ON BACKDROP\nPARK IN CENTER",
-        points: 50
+        points: 50,
+        tested: "NOT TESTED"
     },
     {
         title: "Auton 10 (Blue Wing)",
         tags: ["Blue", "Wing"],
         videos: ["videos/auton10/left.webm", "videos/auton10/middle.webm", "videos/auton10/right.webm"],
         pseudocode: "DROP PURPLE PIXEL ON SPIKE MARK\nDROP YELLOW PIXEL ON BACKDROP\nPARK ON LEFT",
-        points: 50
+        points: 50,
+        tested: "NOT TESTED"
     },
     {
         title: "Auton 11 (Blue Wing)",
         tags: ["Blue", "Wing"],
         videos: ["videos/auton11/left.webm", "videos/auton11/middle.webm", "videos/auton11/right.webm"],
         pseudocode: "DROP PURPLE PIXEL ON SPIKE MARK\nDROP YELLOW PIXEL ON BACKDROP\nPARK ON RIGHT",
-        points: 50
+        points: 50,
+        tested: "NOT TESTED"
     },
     {
         title: "Auton 12 (Red Wing)",
         tags: ["Red", "Wing"],
         videos: ["videos/auton9/left.webm", "videos/auton9/middle.webm", "videos/auton9/right.webm"],
         pseudocode: "DROP PURPLE PIXEL ON SPIKE MARK\nDROP YELLOW PIXEL ON BACKDROP\nPARK IN CENTER",
-        points: 50
+        points: 50,
+        tested: "NOT TESTED"
     },
     {
         title: "Auton 13 (Red Wing)",
         tags: ["Red", "Wing"],
         videos: ["videos/auton10/left.webm", "videos/auton10/middle.webm", "videos/auton10/right.webm"],
         pseudocode: "DROP PURPLE PIXEL ON SPIKE MARK\nDROP YELLOW PIXEL ON BACKDROP\nPARK ON RIGHT",
-        points: 50
+        points: 50,
+        tested: "NOT TESTED"
     },
     {
         title: "Auton 14 (Red Wing)",
         tags: ["Red", "Wing"],
         videos: ["videos/auton11/left.webm", "videos/auton11/middle.webm", "videos/auton11/right.webm"],
         pseudocode: "DROP PURPLE PIXEL ON SPIKE MARK\nDROP YELLOW PIXEL ON BACKDROP\nPARK ON LEFT",
-        points: 50
+        points: 50,
+        tested: "NOT TESTED"
     }
     
 ];
@@ -108,7 +122,7 @@ function createAutonItem(auton) {
     item.classList.add(auton.tags[0])
 
     const title = document.createElement('h3');
-    const title_text = auton.title + " - " + auton.points + " points";
+    const title_text = auton.title + " - " + auton.points + " points " + "(" + auton.tested + ")";
     title.innerText = title_text;
     item.appendChild(title);
 
