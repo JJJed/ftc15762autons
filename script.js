@@ -22,7 +22,7 @@ const autonData = [
         videos: ["videos/auton3/left.webm", "videos/auton3/middle.webm", "videos/auton3/right.webm"],
         pseudocode: "DROP PURPLE PIXEL ON SPIKE MARK\nDROP YELLOW PIXEL ON BACKDROP\nPARK ON RIGHT",
         points: 50,
-        tested: "NOT TESTED"
+        tested: "TESTED"
     },
     {
         title: "Auton 4 (Red Backdrop)",
@@ -86,12 +86,12 @@ const autonData = [
         videos: ["videos/auton11/left.webm", "videos/auton11/middle.webm", "videos/auton11/right.webm"],
         pseudocode: "DROP PURPLE PIXEL ON SPIKE MARK\nDROP YELLOW PIXEL ON BACKDROP\nPARK ON RIGHT",
         points: 50,
-        tested: "NOT TESTED"
+        tested: "TESTED"
     },
     {
         title: "Auton 12 (Red Wing)",
         tags: ["Red", "Wing"],
-        videos: ["videos/auton9/left.webm", "videos/auton9/middle.webm", "videos/auton9/right.webm"],
+        videos: ["videos/auton12/left.webm", "videos/auton12/middle.webm", "videos/auton12/right.webm"],
         pseudocode: "DROP PURPLE PIXEL ON SPIKE MARK\nDROP YELLOW PIXEL ON BACKDROP\nPARK IN CENTER",
         points: 50,
         tested: "NOT TESTED"
@@ -99,7 +99,7 @@ const autonData = [
     {
         title: "Auton 13 (Red Wing)",
         tags: ["Red", "Wing"],
-        videos: ["videos/auton10/left.webm", "videos/auton10/middle.webm", "videos/auton10/right.webm"],
+        videos: ["videos/auton13/left.webm", "videos/auton13/middle.webm", "videos/auton13/right.webm"],
         pseudocode: "DROP PURPLE PIXEL ON SPIKE MARK\nDROP YELLOW PIXEL ON BACKDROP\nPARK ON RIGHT",
         points: 50,
         tested: "NOT TESTED"
@@ -107,10 +107,10 @@ const autonData = [
     {
         title: "Auton 14 (Red Wing)",
         tags: ["Red", "Wing"],
-        videos: ["videos/auton11/left.webm", "videos/auton11/middle.webm", "videos/auton11/right.webm"],
+        videos: ["videos/auton14/left.webm", "videos/auton14/middle.webm", "videos/auton14/right.webm"],
         pseudocode: "DROP PURPLE PIXEL ON SPIKE MARK\nDROP YELLOW PIXEL ON BACKDROP\nPARK ON LEFT",
         points: 50,
-        tested: "NOT TESTED"
+        tested: "TESTED"
     }
     
 ];
