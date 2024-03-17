@@ -122,7 +122,8 @@ function createAutonItem(auton) {
     item.classList.add(auton.tags[0])
 
     const title = document.createElement('h3');
-    const title_text = auton.title + " - " + auton.points + " points " + "(" + auton.tested + ")";
+    const title_text = auton.title + " - " + auton.points + " points ";
+    //const title_text = auton.title + " - " + auton.points + " points " + "(" + auton.tested + ")";
     title.innerText = title_text;
     item.appendChild(title);
 
