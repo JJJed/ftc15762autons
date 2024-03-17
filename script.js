@@ -38,7 +38,7 @@ const autonData = [
         videos: ["videos/auton5/left.webm", "videos/auton5/middle.webm", "videos/auton5/right.webm"],
         pseudocode: "DROP PURPLE PIXEL ON SPIKE MARK\nDROP YELLOW PIXEL ON BACKDROP\nPARK ON RIGHT",
         points: 50,
-        tested: "NOT TESTED"
+        tested: "TESTED"
     },
     {
         title: "Auton 6 (Red Backdrop)",
@@ -46,7 +46,7 @@ const autonData = [
         videos: ["videos/auton6/left.webm", "videos/auton6/middle.webm", "videos/auton6/right.webm"],
         pseudocode: "DROP PURPLE PIXEL ON SPIKE MARK\nDROP YELLOW PIXEL ON BACKDROP\nPARK ON LEFT",
         points: 50,
-        tested: "NOT TESTED"
+        tested: "TESTED"
     },
     {
         title: "Auton 7 (Blue Backdrop)",
@@ -54,7 +54,7 @@ const autonData = [
         videos: ["videos/auton7/left.webm", "videos/auton7/middle.webm", "videos/auton7/right.webm"],
         pseudocode: "DROP PURPLE PIXEL ON SPIKE MARK\nDROP YELLOW PIXEL ON BACKDROP\nPARK IN CENTER",
         points: 50,
-        tested: "NOT TESTED"
+        tested: "TESTED"
     },
     {
         title: "Auton 8 (Red Backdrop)",
@@ -62,7 +62,7 @@ const autonData = [
         videos: ["videos/auton8/left.webm", "videos/auton8/middle.webm", "videos/auton8/right.webm"],
         pseudocode: "DROP PURPLE PIXEL ON SPIKE MARK\nDROP YELLOW PIXEL ON BACKDROP\nPARK IN CENTER",
         points: 50,
-        tested: "NOT TESTED"
+        tested: "TESTED"
     },
     {
         title: "Auton 9 (Blue Wing)",
@@ -70,7 +70,7 @@ const autonData = [
         videos: ["videos/auton9/left.webm", "videos/auton9/middle.webm", "videos/auton9/right.webm"],
         pseudocode: "DROP PURPLE PIXEL ON SPIKE MARK\nDROP YELLOW PIXEL ON BACKDROP\nPARK IN CENTER",
         points: 50,
-        tested: "NOT TESTED"
+        tested: "TESTED"
     },
     {
         title: "Auton 10 (Blue Wing)",
@@ -78,7 +78,7 @@ const autonData = [
         videos: ["videos/auton10/left.webm", "videos/auton10/middle.webm", "videos/auton10/right.webm"],
         pseudocode: "DROP PURPLE PIXEL ON SPIKE MARK\nDROP YELLOW PIXEL ON BACKDROP\nPARK ON LEFT",
         points: 50,
-        tested: "NOT TESTED"
+        tested: "TESTED"
     },
     {
         title: "Auton 11 (Blue Wing)",
@@ -94,7 +94,7 @@ const autonData = [
         videos: ["videos/auton12/left.webm", "videos/auton12/middle.webm", "videos/auton12/right.webm"],
         pseudocode: "DROP PURPLE PIXEL ON SPIKE MARK\nDROP YELLOW PIXEL ON BACKDROP\nPARK IN CENTER",
         points: 50,
-        tested: "NOT TESTED"
+        tested: "TESTED"
     },
     {
         title: "Auton 13 (Red Wing)",
@@ -102,7 +102,7 @@ const autonData = [
         videos: ["videos/auton13/left.webm", "videos/auton13/middle.webm", "videos/auton13/right.webm"],
         pseudocode: "DROP PURPLE PIXEL ON SPIKE MARK\nDROP YELLOW PIXEL ON BACKDROP\nPARK ON RIGHT",
         points: 50,
-        tested: "NOT TESTED"
+        tested: "TESTED"
     },
     {
         title: "Auton 14 (Red Wing)",
